@@ -20,6 +20,12 @@ header h1 {
 
 }
 
+header p {
+    font-size: 24px;
+    color: #cccccc;
+    text-align: center;
+}
+
 .players {
     padding: 25px;
 }
