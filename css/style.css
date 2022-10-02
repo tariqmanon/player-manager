@@ -40,6 +40,16 @@ header h1 {
     padding: 15px;
 }
 
+.budget h6 {
+    margin: 20px 0px;
+    font-size: 24px;
+}
+
+.budget p {
+    font-size: 18px;
+    margin: 20px 0x;
+}
+
 li {
     color: #ffffff;
     font-size: 20px;
@@ -54,6 +64,22 @@ button:disabled,
 button[disabled] {
     border: 1px solid #999999;
     background-color: #cccccc !Important;
-    color: #666666 !Important;
+    color: #ffffff !Important;
     outline: none;
+}
+
+.flex-row {
+    flex-direction: row !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-row p {
+    margin-right: 10px;
+}
+
+.total h4 {
+    color: #FF5E19;
+    font-size: 24px;
 }

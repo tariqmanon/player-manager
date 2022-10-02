@@ -1,13 +1,14 @@
 document.getElementById('player-budget').addEventListener('click', function () {
     const listItem = document.getElementById('player-list').getElementsByTagName('li');
     const listCount = listItem.length;
+    console.log(listCount)
     const playerField = document.getElementById('player-field');
     const playerFieldStr = playerField.value;
     const perPlayerBudget = parseInt(playerFieldStr);
 
 
 
-    if (listCount === 0) {
+    if (listCount <= 0) {
         alert("please select a player");
     } else if (playerFieldStr.length == '') {
         alert("please Provide player Expense Fee");

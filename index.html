@@ -68,11 +68,17 @@
                         <h1>Budget</h1>
                         <p>Per Player<input id="player-field" type="text" class="form-control"></p>
                         <button id="player-budget" class="btn btn-primary">Calculate</button>
-                        <h6>Player Expenses $ <span id="player-expense">0000</span></h6>
-                        <p>Manager<input id="manager-exp" type="text" name=""></p>
-                        <p>Coach<input id="coach-exp" type="text" name=""></p>
+                        <h6 class="my-10">Player Expenses $ <span id="player-expense">0000</span></h6>
+                        <div class="flex flex-row mb-3">
+                            <p>Manager</p>
+                            <p><input class="form-control" id="manager-exp" type="text" name=""></p>
+                        </div>
+                        <div class="flex flex-row mb-3">
+                            <p>Coach</p>
+                            <input class="form-control" id="coach-exp" type="text" name="">
+                        </div>
                         <button id="total-expense" class="btn btn-primary">Calculate Total</button>
-                        <div>
+                        <div class="flex flex-row total">
                             <h6>Total</h6>
                             <h4>$ <span id="total-field">00000</span></h4>
                         </div>
